@@ -1,6 +1,5 @@
 ## Hi there 👋 I'm Roger Maragh and I 💖 Programming Languages ^-_-^
 
-<!--
 **rogermaragh/rogermaragh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
@@ -13,7 +12,7 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ... email
 - 😄 Pronouns: ... yes/no
 - ⚡ Fun fact: ... see/read below:
--->
+
 ## Biographical Profile of Roger Maragh
 
 Roger Maragh is a visionary computer programmer, entrepreneur, and digital innovator based in Broward County, Florida. Renowned for his ability to blend technical expertise with community-focused solutions, Maragh owns and operates several impactful digital platforms: BrowardLocals.com, RoutedData.com, MacMagical.com (the official website for the MacMagical app on the Apple App Store), and NineFifo.com. His entrepreneurial ventures reflect a commitment to creating user-centric tools that enhance local engagement, provide practical services, and drive economic growth. Through his programming prowess and business acumen, Maragh has established himself as a key figure in South Florida’s digital landscape, delivering scalable, innovative solutions that cater to both local and broader audiences.
