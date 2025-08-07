@@ -1,9 +1,9 @@
 ## Hi 👋 I'm Roger Maragh & I 💖 Programming Languages ^-_-^
-
+<!--
 **rogermaragh/rogermaragh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
-
+--!>
 - 🔭 I’m currently working on ... magicalpc.com
 - 🌱 I’m currently learning ... the stock market
 - 👯 I’m looking to collaborate on ... great ideas
