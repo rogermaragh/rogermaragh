@@ -1,4 +1,4 @@
-## Hi there 👋 I'm Roger Maragh and I 💖 Programming Languages ^-_-^
+## Hi there 👋 I'm Roger Maragh & I 💖 Programming Languages ^-_-^
 
 **rogermaragh/rogermaragh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
