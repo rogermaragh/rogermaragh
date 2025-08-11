@@ -1,16 +1,20 @@
 ## Hi 👋 I'm Roger Maragh & I 💖 Programming Languages ^-_-^
+<!--
+**rogermaragh/rogermaragh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
+Here are some ideas to get you started:
+-->
 - 🔭 I’m currently working on ... magicalpc.com
 - 🌱 I’m currently learning ... the stock market
 - 👯 I’m looking to collaborate on ... great ideas
-- 🤔 I’m looking for help with ... intelligent design
-- 💬 Ask me about ... magic
-- 📫 How to reach me: ... email
+@@ -13,38 +9,48 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ... yes/no
 - ⚡ Fun fact: ... see/read below:
+<!--
+**rogermaragh/rogermaragh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-
-
+Here are some ideas to get you started:
+-->
 🚀 Metasage.com
 
 What It Is (The Simple Idea) Imagine a big company, like a car factory or a hospital, is a character in a video game. Metasage.com gives that company a special "cheat code" or a super-smart robot helper. This helper watches how everything works and finds faster, smarter, and cheaper ways to do things, helping the company win the game of business.
