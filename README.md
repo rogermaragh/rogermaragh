@@ -7,14 +7,14 @@ Here are some ideas to get you started:
 - 🔭 I’m currently working on ... magicalpc.com
 - 🌱 I’m currently learning ... the stock market
 - 👯 I’m looking to collaborate on ... great ideas
-@@ -13,38 +9,48 @@ Here are some ideas to get you started:
+- 🤔 I’m looking for help with ... intelligent design
+- 💬 Ask me about ... magic
+- 📫 How to reach me: ... email
 - 😄 Pronouns: ... yes/no
 - ⚡ Fun fact: ... see/read below:
-<!--
-**rogermaragh/rogermaragh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
--->
+## ![](https://hit.yhype.me/github/profile?account_id=3769507)
+
 🚀 Metasage.com
 
 What It Is (The Simple Idea) Imagine a big company, like a car factory or a hospital, is a character in a video game. Metasage.com gives that company a special "cheat code" or a super-smart robot helper. This helper watches how everything works and finds faster, smarter, and cheaper ways to do things, helping the company win the game of business.
@@ -56,6 +56,4 @@ The TV Commercial Idea 💡 [SCENE: A person is using a normal, plain MacBook. T
 What It Is (The Simple Idea) Imagine your computer has different apps that all speak different languages, like a drawing app and a math app. They can't talk to each other! RoutedData.com is like a super-fast, secret mail service for computer information. It grabs a message from the drawing app, instantly translates it, and delivers it safely to the math app so they can work together.
 The TV Commercial Idea 💡 [SCENE: Two giant, complex machines in a lab. One machine spits out a blue ball. The other machine only accepts red squares. They can't work together.] VOICEOVER: Is your business data stuck? [A glowing tube with the RoutedData logo instantly appears, connecting the two machines. A blue ball goes in one end, zips through the tube, and comes out the other end as a red square, fitting perfectly into the second machine. The whole lab lights up and runs smoothly.]VOICEOVER: We connect your apps, so your business can fly. TAGLINE: RoutedData.com. Your data, delivered.
 
-
-![](https://hit.yhype.me/github/profile?account_id=3769507)
 
