@@ -46,3 +46,5 @@ Maragh’s work has economic implications, with his platforms supporting adverti
 
 Roger Maragh stands as a trailblazing figure in South Florida’s tech and entrepreneurial landscape. As the business owner of BrowardLocals.com, RoutedData.com, MacMagical.com (supporting the MacMagical app on the Apple App Store), and NineFifo.com, he has built a portfolio that combines community engagement, practical utility, and innovative technology. His programming expertise enables the creation of automated, user-friendly platforms, while his entrepreneurial vision drives economic and civic impact. From connecting Broward County residents to streamlining lottery lookups, delivering mobile solutions, and expanding his reach with NineFifo.com, Maragh’s work exemplifies the power of technology to serve and uplift communities. For inquiries or partnership opportunities, he can be reached at 954-601-9525, as listed across his platforms.
 
+![](https://hit.yhype.me/github/profile?account_id=3769507)
+
