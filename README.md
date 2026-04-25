@@ -4,7 +4,7 @@
 
 Here are some ideas to get you started:
 -->
-- 🔭 I’m currently working on ... [magicalpc](https://maragh.co/).co
+- 🔭 I’m currently working on ... [maragh](https://maragh.co/).co
 - 🌱 I’m currently learning ... the stock market
 - 👯 I’m looking to collaborate on ... great ideas
 - 🤔 I’m looking for help with ... intelligent design
