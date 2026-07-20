@@ -4,7 +4,7 @@
 
 Here are some ideas to get you started:
 -->
-- 🔭 I’m currently working on ... https://github.com/rogermaragh/AIRawCFramework
+- 🔭 I’m currently working on ... https://www.rogermaragh.com
 - 🌱 I’m currently learning ... the stock market
 - 👯 I’m looking to collaborate on ... great ideas
 - 🤔 I’m looking for help with ... intelligent design
