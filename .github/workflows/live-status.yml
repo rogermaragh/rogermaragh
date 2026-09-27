@@ -1,0 +1,39 @@
+# Keeps the "Live status" table in README.md current. Every hour it opens each site in
+# live-status.json the way a visitor would and reads the App Store listing, then commits the
+# table only when something changed (or once a day, so the date shows it's still running).
+# Public information only — no secrets. Script: scripts/live_status.py · tests: tests/.
+name: live status
+
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: live-status
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Test the checker
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Check sites and apps
+        run: python3 scripts/live_status.py README.md
+
+      - name: Commit when the table changed
+        run: |
+          if git diff --quiet README.md; then echo "No change."; exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -q -m "Live status: $(date -u '+%Y-%m-%d %H:%M') UTC" README.md
+          git pull -q --rebase
+          git push -q
