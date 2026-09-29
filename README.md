@@ -18,15 +18,15 @@ Here are some ideas to get you started:
 
 | | Site or app | Status | Details |
 |:-:|---|---|---|
-| 🎟️ | [RoutedData.com](https://routeddata.com/) | 🟢 Up | Answers in 3.4 s |
-| 🪄 | [MacMagical.com](https://macmagical.com/) | 🟢 Up | Answers in 2.4 s |
+| 🎟️ | [RoutedData.com](https://routeddata.com/) | 🟢 Up | Answers in 8.4 s |
+| 🪄 | [MacMagical.com](https://macmagical.com/) | 🟢 Up | Answers in 1.7 s |
 | 📱 | [MacMagical app](https://apps.apple.com/us/app/macmagical/id6738878207) | 🟢 On the App Store | Version 1.0 · ★ 5.0 (5 ratings) |
 | 👤 | [rogermaragh.com](https://rogermaragh.com/) | 🟡 Forwards | To my App Store developer page |
-| 📰 | [BrowardLocals.com](https://browardlocals.com/) | 🟡 Forwards | To Pip’s Market Munch on the App Store |
+| 📰 | [BrowardLocals.com](https://browardlocals.com/) | 🟢 Up | Answers in 0.0 s |
 | 🌐 | [NineFifo.com](http://www.ninefifo.com/) | 🟡 Forwards | To MarketLens: Market Scanner on the App Store (www only, no HTTPS) |
 
-<sub>🕒 Checked every hour by a [GitHub Action](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml) · updated Sep 29, 2026, 01:55 UTC · [![live status](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml/badge.svg)](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml)</sub>
-<!-- live-status:sig=5f8c65c3f299 updated=2026-09-29T01:55Z -->
+<sub>🕒 Checked every hour by a [GitHub Action](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml) · updated Sep 29, 2026, 15:49 UTC · [![live status](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml/badge.svg)](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml)</sub>
+<!-- live-status:sig=7a76202ffc7d updated=2026-09-29T15:49Z -->
 <!-- live-status:end -->
 
 ## Biographical Profile of Roger Maragh
