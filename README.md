@@ -19,14 +19,14 @@ Here are some ideas to get you started:
 | | Site or app | Status | Details |
 |:-:|---|---|---|
 | 🎟️ | [RoutedData.com](https://routeddata.com/) | 🟢 Up | Answers in 8.8 s |
-| 🪄 | [MacMagical.com](https://macmagical.com/) | 🟢 Up | Answers in 1.9 s |
+| 🪄 | [MacMagical.com](https://macmagical.com/) | 🟢 Up | Answers in 1.7 s |
 | 📱 | [MacMagical app](https://apps.apple.com/us/app/macmagical/id6738878207) | 🟢 On the App Store | Version 1.0 · ★ 5.0 (5 ratings) |
-| 👤 | [rogermaragh.com](https://rogermaragh.com/) | 🟢 Up | Answers in 9.0 s |
+| 👤 | [rogermaragh.com](https://rogermaragh.com/) | 🟢 Up | Answers in 4.1 s |
 | 📰 | [BrowardLocals.com](https://browardlocals.com/) | 🟢 Up | Answers in 0.3 s |
-| 🌐 | [NineFifo.com](https://www.ninefifo.com/) | 🟢 Up | Answers in 9.1 s (www only) |
+| 🌐 | [NineFifo.com](https://ninefifo.com/) | 🟢 Up | Answers in 8.6 s |
 
-<sub>🕒 Checked every hour by a [GitHub Action](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml) · updated Oct 1, 2026, 15:48 UTC · [![live status](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml/badge.svg)](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml)</sub>
-<!-- live-status:sig=c2acdc63c803 updated=2026-10-01T15:48Z -->
+<sub>🕒 Checked every hour by a [GitHub Action](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml) · updated Oct 1, 2026, 16:47 UTC · [![live status](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml/badge.svg)](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml)</sub>
+<!-- live-status:sig=09f2f92d3fc0 updated=2026-10-01T16:47Z -->
 <!-- live-status:end -->
 
 ## Biographical Profile of Roger Maragh
