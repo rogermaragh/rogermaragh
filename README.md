@@ -18,15 +18,16 @@ Here are some ideas to get you started:
 
 | | Site or app | Status | Details |
 |:-:|---|---|---|
-| 🎟️ | [RoutedData.com](https://routeddata.com/) | 🟢 Up | Answers in 2.4 s |
-| 🪄 | [MacMagical.com](https://macmagical.com/) | 🟢 Up | Answers in 1.1 s |
+| 🎟️ | [RoutedData.com](https://routeddata.com/) | 🟢 Up | Answers in 0.3 s |
+| 🪄 | [MacMagical.com](https://macmagical.com/) | 🟢 Up | Answers in 1.3 s |
 | 📱 | [MacMagical app](https://apps.apple.com/us/app/macmagical/id6738878207) | 🟢 On the App Store | Version 1.0 · ★ 5.0 (5 ratings) |
-| 👤 | [rogermaragh.com](https://rogermaragh.com/) | 🟢 Up | Answers in 10.3 s |
-| 📰 | [BrowardLocals.com](https://browardlocals.com/) | 🟢 Up | Answers in 0.3 s |
-| 🌐 | [NineFifo.com](https://ninefifo.com/) | 🟢 Up | Answers in 8.1 s |
+| 👤 | [rogermaragh.com](https://rogermaragh.com/) | 🟢 Up | Answers in 8.5 s |
+| 📰 | [BrowardLocals.com](https://browardlocals.com/) | 🟢 Up | Answers in 0.4 s |
+| 🎮 | [xyzyo.com](https://xyzyo.com/) | 🟢 Up | Answers in 0.3 s |
+| 🌐 | [NineFifo.com](https://ninefifo.com/) | 🟢 Up | Answers in 1.6 s |
 
-<sub>🕒 Checked every hour by a [GitHub Action](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml) · updated Oct 2, 2026, 00:47 UTC · [![live status](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml/badge.svg)](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml)</sub>
-<!-- live-status:sig=09f2f92d3fc0 updated=2026-10-02T00:47Z -->
+<sub>🕒 Checked every hour by a [GitHub Action](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml) · updated Oct 2, 2026, 04:58 UTC · [![live status](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml/badge.svg)](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml)</sub>
+<!-- live-status:sig=5244fb2ec04e updated=2026-10-02T04:58Z -->
 <!-- live-status:end -->
 
 ## Biographical Profile of Roger Maragh
