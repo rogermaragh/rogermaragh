@@ -31,7 +31,7 @@ Here are some ideas to get you started:
 
 ## Biographical Profile of Roger Maragh
 
-Roger Maragh is a visionary computer programmer, entrepreneur, and digital innovator based in Broward County, Florida. He builds and runs his own web platforms and iPhone apps: [RoutedData.com](https://routeddata.com), home of the QuantDash Prime market dashboard; [MacMagical.com](https://macmagical.com) and the MacMagical app; and two newer App Store apps, MarketLens: Market Scanner and Pip’s Market Munch. His domains BrowardLocals.com and NineFifo.com now point to those newer apps. Across all of them, Maragh blends technical depth with practical tools that people use every day.
+Roger Maragh is a visionary computer programmer, entrepreneur, and digital innovator based in Broward County, Florida. He builds and runs his own web platforms and iPhone apps: [RoutedData.com](https://routeddata.com), home of the QuantDash Prime market dashboard; [MacMagical.com](https://macmagical.com) and the MacMagical app; and two newer App Store apps, MarketLens: Market Scanner and Pip’s Market Munch. His domains xyzyo.com and NineFifo.com now point to those newer apps. Across all of them, Maragh blends technical depth with practical tools that people use every day.
 
 ## Early Career and Technical Expertise
 
@@ -51,7 +51,7 @@ While details of Maragh’s early life and education remain private, his work sp
 
 ## Pip’s Market Munch
 
-[Pip’s Market Munch](https://apps.apple.com/us/app/id6806082015), released in September 2026, teaches markets through play: an arcade adventure where Pip inspects the clues and munches the matches, so players come back knowing a little more. [BrowardLocals.com](https://browardlocals.com/?ref=github), once an automated local-news aggregator for Broward County, is now the home of Pip’s Market Munch.
+[Pip’s Market Munch](https://apps.apple.com/us/app/id6806082015), released in September 2026, teaches markets through play: an arcade adventure where Pip inspects the clues and munches the matches, so players come back knowing a little more. [xyzyo.com](https://xyzyo.com/?ref=github) is now the home of Pip’s Market Munch.
 
 ## Broader Impact and Legacy
 
