@@ -14,20 +14,20 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ... see/read below:
 
 <!-- live-status:start -->
-### 🟢 Live status
+### 🟠 Live status
 
 | | Site or app | Status | Details |
 |:-:|---|---|---|
-| 🎟️ | [RoutedData.com](https://routeddata.com/) | 🟢 Up | Answers in 0.5 s |
-| 🪄 | [MacMagical.com](https://macmagical.com/) | 🟢 Up | Answers in 1.4 s |
+| 🎟️ | RoutedData.com | 🔴 Down | HTTP 404 |
+| 🪄 | MacMagical.com | 🔴 Down | No answer in 15 s |
 | 📱 | [MacMagical app](https://apps.apple.com/us/app/macmagical/id6738878207) | 🟢 On the App Store | Version 1.0 · ★ 5.0 (5 ratings) |
-| 👤 | [rogermaragh.com](https://rogermaragh.com/) | 🟢 Up | Answers in 1.3 s |
-| 📰 | [BrowardLocals.com](https://browardlocals.com/) | 🟢 Up | Answers in 0.1 s |
-| 🎮 | [xyzyo.com](https://xyzyo.com/) | 🟢 Up | Answers in 0.1 s |
-| 🌐 | [NineFifo.com](https://ninefifo.com/) | 🟢 Up | Answers in 1.0 s |
+| 👤 | [rogermaragh.com](https://www.rogermaragh.com/) | 🟢 Up | Answers in 0.3 s (www only) |
+| 📰 | [BrowardLocals.com](https://www.browardlocals.com/) | 🟡 Forwards | To Pip’s Market Munch on the App Store (www only) |
+| 🎮 | xyzyo.com | 🔴 Down | No answer in 15 s |
+| 🌐 | NineFifo.com | 🔴 Down | No answer in 15 s |
 
-<sub>🕒 Checked every hour by a [GitHub Action](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml) · updated Oct 4, 2026, 16:47 UTC · [![live status](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml/badge.svg)](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml)</sub>
-<!-- live-status:sig=5244fb2ec04e updated=2026-10-04T16:47Z -->
+<sub>🕒 Checked every hour by a [GitHub Action](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml) · updated Oct 4, 2026, 17:54 UTC · [![live status](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml/badge.svg)](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml)</sub>
+<!-- live-status:sig=6bae5868d9b1 updated=2026-10-04T17:54Z -->
 <!-- live-status:end -->
 
 ## Biographical Profile of Roger Maragh
