@@ -21,9 +21,23 @@ import live_status as ls  # noqa: E402
 DNS = urllib.error.URLError(socket.gaierror(8, 'nodename nor servname provided'))
 TIMEOUT = urllib.error.URLError(socket.timeout('timed out'))
 PIPS = 'https://apps.apple.com/us/app/pips-market-munch/id6806082015'
-APPS = {6806082015: {'trackName': 'Pip’s Market Munch'},
-        6738878207: {'trackName': 'MacMagical', 'version': '1.0', 'averageUserRating': 5.0,
-                     'userRatingCount': 5, 'trackViewUrl': 'https://apps.apple.com/us/app/macmagical/id6738878207?uo=4'}}
+APPS = {
+    6738878207: {
+        'trackName': 'MacMagical', 'version': '1.0', 'averageUserRating': 5.0,
+        'userRatingCount': 5,
+        'trackViewUrl': 'https://apps.apple.com/us/app/macmagical/id6738878207?uo=4',
+    },
+    6792598613: {
+        'trackName': 'MarketLens: Market Scanner', 'version': '1.0.7',
+        'averageUserRating': 0, 'userRatingCount': 0,
+        'trackViewUrl': 'https://apps.apple.com/us/app/marketlens-market-scanner/id6792598613?uo=4',
+    },
+    6806082015: {
+        'trackName': 'Pip’s Market Munch', 'version': '1.0',
+        'averageUserRating': 0, 'userRatingCount': 0,
+        'trackViewUrl': 'https://apps.apple.com/us/app/pips-market-munch/id6806082015?uo=4',
+    },
+}
 
 
 class Web:
@@ -78,7 +92,7 @@ class DomainTest(unittest.TestCase):
         r = check('n.test', {'https://n.test/': DNS, 'https://www.n.test/': TIMEOUT, 'http://n.test/': DNS,
                              'http://www.n.test/': (301, 'https://apps.apple.com/us/app/marketlens-market-scanner/id6792598613')})
         self.assertEqual(r['state'], 'forwards')
-        self.assertEqual(r['detail'], 'To Marketlens Market Scanner on the App Store (www only, no HTTPS)')
+        self.assertEqual(r['detail'], 'To MarketLens: Market Scanner on the App Store (www only, no HTTPS)')
         self.assertEqual(r['link'], 'http://www.n.test/')
 
     def test_a_dead_domain_gets_a_second_round_then_reads_down(self):
@@ -198,6 +212,17 @@ class RegistryTest(unittest.TestCase):
             'rajhmiraj.com', 'metasage.com',
         ])
         self.assertEqual(len({row['name'] for row in rows}), len(rows))
+
+    def test_public_live_registry_has_verified_app_store_inventory(self):
+        config = Path(__file__).resolve().parents[1] / 'live-status.json'
+        rows = json.loads(config.read_text(encoding='utf-8'))['rows']
+        apps = [(row['icon'], row['name'], row['app_store_id'])
+                for row in rows if 'app_store_id' in row]
+        self.assertEqual(apps, [
+            ('📱', 'MacMagical', 6738878207),
+            ('📈', 'MarketLens: Market Scanner', 6792598613),
+            ('🎮', 'Pip’s Market Munch', 6806082015),
+        ])
 
 
 

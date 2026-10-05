@@ -13,8 +13,18 @@
     },
     {
       "icon": "📱",
-      "name": "MacMagical app",
+      "name": "MacMagical",
       "app_store_id": 6738878207
+    },
+    {
+      "icon": "📈",
+      "name": "MarketLens: Market Scanner",
+      "app_store_id": 6792598613
+    },
+    {
+      "icon": "🎮",
+      "name": "Pip’s Market Munch",
+      "app_store_id": 6806082015
     },
     {
       "icon": "👤",
