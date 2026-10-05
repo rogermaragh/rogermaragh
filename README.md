@@ -14,20 +14,20 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ... see/read below:
 
 <!-- live-status:start -->
-### 🟢 Live status
+### 🟠 Live status
 
 | | Site or app | Status | Details |
 |:-:|---|---|---|
-| 🎟️ | [RoutedData.com](https://routeddata.com/) | 🟢 Up | Answers in 0.2 s |
-| 🪄 | [MacMagical.com](https://macmagical.com/) | 🟢 Up | Answers in 1.0 s |
+| 🎟️ | [RoutedData.com](https://routeddata.com/) | 🟢 Up | Answers in 0.4 s |
+| 🪄 | [MacMagical.com](https://macmagical.com/) | 🟢 Up | Answers in 1.1 s |
 | 📱 | [MacMagical app](https://apps.apple.com/us/app/macmagical/id6738878207) | 🟢 On the App Store | Version 1.0 · ★ 5.0 (5 ratings) |
-| 👤 | [rogermaragh.com](https://rogermaragh.com/) | 🟢 Up | Answers in 8.2 s |
-| 📰 | [BrowardLocals.com](https://browardlocals.com/) | 🟢 Up | Answers in 0.1 s |
-| 🎮 | [xyzyo.com](https://xyzyo.com/) | 🟢 Up | Answers in 0.1 s |
-| 🌐 | [NineFifo.com](https://ninefifo.com/) | 🟢 Up | Answers in 7.9 s |
+| 👤 | rogermaragh.com | 🔴 Down | HTTP 410 |
+| 📰 | [BrowardLocals.com](https://browardlocals.com/) | 🟢 Up | Answers in 0.3 s |
+| 🎮 | [xyzyo.com](https://xyzyo.com/) | 🟢 Up | Answers in 0.3 s |
+| 🌐 | NineFifo.com | 🔴 Down | HTTP 410 |
 
-<sub>🕒 Checked every hour by a [GitHub Action](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml) · updated Oct 5, 2026, 00:47 UTC · [![live status](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml/badge.svg)](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml)</sub>
-<!-- live-status:sig=5244fb2ec04e updated=2026-10-05T00:47Z -->
+<sub>🕒 Checked every hour by a [GitHub Action](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml) · updated Oct 5, 2026, 19:52 UTC · [![live status](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml/badge.svg)](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml)</sub>
+<!-- live-status:sig=a56e9f9020e9 updated=2026-10-05T19:52Z -->
 <!-- live-status:end -->
 
 ## Biographical Profile of Roger Maragh
