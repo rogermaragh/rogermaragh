@@ -18,16 +18,22 @@ Here are some ideas to get you started:
 
 | | Site or app | Status | Details |
 |:-:|---|---|---|
-| 🎟️ | [RoutedData.com](https://routeddata.com/) | 🟢 Up | Answers in 0.4 s |
-| 🪄 | [MacMagical.com](https://macmagical.com/) | 🟢 Up | Answers in 1.1 s |
+| 🎟️ | [RoutedData.com](https://routeddata.com/) | 🟢 Up | Answers in 0.6 s |
+| 🪄 | [MacMagical.com](https://macmagical.com/) | 🟢 Up | Answers in 1.3 s |
 | 📱 | [MacMagical app](https://apps.apple.com/us/app/macmagical/id6738878207) | 🟢 On the App Store | Version 1.0 · ★ 5.0 (5 ratings) |
 | 👤 | rogermaragh.com | 🔴 Down | HTTP 410 |
+| 🏠 | [www.rogermaragh.com](https://www.rogermaragh.com/) | 🟢 Up | Answers in 0.5 s |
 | 📰 | [BrowardLocals.com](https://browardlocals.com/) | 🟢 Up | Answers in 0.3 s |
-| 🎮 | [xyzyo.com](https://xyzyo.com/) | 🟢 Up | Answers in 0.3 s |
+| 🎮 | [xyzyo.com](https://xyzyo.com/) | 🟢 Up | Answers in 0.4 s |
 | 🌐 | NineFifo.com | 🔴 Down | HTTP 410 |
+| 💻 | MagicalPC.com | 🔴 Down | HTTP 410 |
+| ❤️ | [Love1Tech.com](http://love1tech.com/) | 🟡 Forwards | To macmagical.com (no HTTPS) |
+| 🧊 | [Xerokewl.io](https://xerokewl.io/) | 🟢 Up | Answers in 0.4 s |
+| 🧑‍💻 | [RajhMiraj.com](https://rajhmiraj.com/) | 🟢 Up | Answers in 0.5 s |
+| 🧠 | [MetaSage.com](https://metasage.com/) | 🟢 Up | Answers in 0.4 s |
 
-<sub>🕒 Checked every hour by a [GitHub Action](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml) · updated Oct 5, 2026, 19:52 UTC · [![live status](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml/badge.svg)](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml)</sub>
-<!-- live-status:sig=a56e9f9020e9 updated=2026-10-05T19:52Z -->
+<sub>🕒 Checked every hour by a [GitHub Action](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml) · updated Oct 5, 2026, 21:20 UTC · [![live status](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml/badge.svg)](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml)</sub>
+<!-- live-status:sig=4602aaa0efb8 updated=2026-10-05T21:20Z -->
 <!-- live-status:end -->
 
 ## Biographical Profile of Roger Maragh

@@ -186,5 +186,20 @@ class ReadmeTest(unittest.TestCase):
         self.assertEqual(self.run_at(dt.datetime(2026, 9, 27, tzinfo=dt.timezone.utc))[0], 2)
 
 
+class RegistryTest(unittest.TestCase):
+    def test_public_live_registry_has_expected_domains(self):
+        config = Path(__file__).resolve().parents[1] / 'live-status.json'
+        rows = json.loads(config.read_text(encoding='utf-8'))['rows']
+        domains = [row['domain'] for row in rows if 'domain' in row]
+        self.assertEqual(domains, [
+            'routeddata.com', 'macmagical.com', 'rogermaragh.com',
+            'www.rogermaragh.com', 'browardlocals.com', 'xyzyo.com',
+            'ninefifo.com', 'magicalpc.com', 'love1tech.com', 'xerokewl.io',
+            'rajhmiraj.com', 'metasage.com',
+        ])
+        self.assertEqual(len({row['name'] for row in rows}), len(rows))
+
+
+
 if __name__ == '__main__':
     unittest.main()

@@ -1,12 +1,70 @@
 {
   "about": "Rows of the Live status table in README.md, checked every hour by scripts/live_status.py. A row is a site (domain) or an App Store app (app_store_id). Public information only.",
   "rows": [
-    {"icon": "🎟️", "name": "RoutedData.com", "domain": "routeddata.com"},
-    {"icon": "🪄", "name": "MacMagical.com", "domain": "macmagical.com"},
-    {"icon": "📱", "name": "MacMagical app", "app_store_id": 6738878207},
-    {"icon": "👤", "name": "rogermaragh.com", "domain": "rogermaragh.com"},
-    {"icon": "📰", "name": "BrowardLocals.com", "domain": "browardlocals.com"},
-    {"icon": "🎮", "name": "xyzyo.com", "domain": "xyzyo.com"},
-    {"icon": "🌐", "name": "NineFifo.com", "domain": "ninefifo.com"}
+    {
+      "icon": "🎟️",
+      "name": "RoutedData.com",
+      "domain": "routeddata.com"
+    },
+    {
+      "icon": "🪄",
+      "name": "MacMagical.com",
+      "domain": "macmagical.com"
+    },
+    {
+      "icon": "📱",
+      "name": "MacMagical app",
+      "app_store_id": 6738878207
+    },
+    {
+      "icon": "👤",
+      "name": "rogermaragh.com",
+      "domain": "rogermaragh.com"
+    },
+    {
+      "icon": "🏠",
+      "name": "www.rogermaragh.com",
+      "domain": "www.rogermaragh.com"
+    },
+    {
+      "icon": "📰",
+      "name": "BrowardLocals.com",
+      "domain": "browardlocals.com"
+    },
+    {
+      "icon": "🎮",
+      "name": "xyzyo.com",
+      "domain": "xyzyo.com"
+    },
+    {
+      "icon": "🌐",
+      "name": "NineFifo.com",
+      "domain": "ninefifo.com"
+    },
+    {
+      "icon": "💻",
+      "name": "MagicalPC.com",
+      "domain": "magicalpc.com"
+    },
+    {
+      "icon": "❤️",
+      "name": "Love1Tech.com",
+      "domain": "love1tech.com"
+    },
+    {
+      "icon": "🧊",
+      "name": "Xerokewl.io",
+      "domain": "xerokewl.io"
+    },
+    {
+      "icon": "🧑‍💻",
+      "name": "RajhMiraj.com",
+      "domain": "rajhmiraj.com"
+    },
+    {
+      "icon": "🧠",
+      "name": "MetaSage.com",
+      "domain": "metasage.com"
+    }
   ]
 }
