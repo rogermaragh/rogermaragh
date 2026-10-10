@@ -58,7 +58,7 @@ While details of Maragh’s early life and education remain private, his work sp
 
 ## MacMagical.com and the MacMagical App
 
-[MacMagical.com](https://macmagical.com) is the home of [MacMagical](https://apps.apple.com/us/app/id6738878207), a developer tool on the App Store that decodes Apple MacBook serial numbers and looks up real-time Amazon prices for components, tools, and accessories. Released in December 2024, it helps anyone working on a MacBook identify the machine and price the parts it needs.
+[MacMagical.com](https://macmagical.com) is the home of [MacMagical](https://apps.apple.com/us/app/id6738878207), an app on the App Store for identifying Mac models and finding parts and repair resources. Confirm compatibility and current pricing with the seller before purchasing.
 
 ## MarketLens: Market Scanner
 
@@ -70,7 +70,7 @@ While details of Maragh’s early life and education remain private, his work sp
 
 ## Broader Impact and Legacy
 
-Roger Maragh’s work blends technical skill with practical impact. QuantDash Prime gives traders a fast read on the market, MarketLens brings market research to the iPhone, Pip’s Market Munch makes learning about markets playful, and MacMagical helps Mac owners and repairers identify machines and price parts. Together they show his range across the web, mobile apps, and data, and his habit of building tools that people actually use.
+Roger Maragh’s work blends technical skill with practical impact. QuantDash Prime gives traders a fast read on the market, MarketLens brings market research to the iPhone, Pip’s Market Munch makes learning about markets playful, and MacMagical helps Mac owners and repairers identify machines and find repair resources. Together they show his range across the web, mobile apps, and data, and his habit of building tools that people actually use.
 
 ## Conclusion
 
