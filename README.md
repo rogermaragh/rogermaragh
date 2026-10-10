@@ -38,6 +38,12 @@ Here are some ideas to get you started:
 <!-- live-status:sig=0056b2234fca updated=2026-10-10T00:47Z -->
 <!-- live-status:end -->
 
+## Genesis guided coaching
+
+[Genesis](https://shakeshoes.com/coach/offer) helps you clarify a goal, plan practical actions, and check in on progress in a private workspace. It provides software-guided coaching, with rule-based prompts and planning tools.
+
+Access costs **$399 USD once for 30 days**, starting after verified payment. There is no automatic renewal. [Read the offer and terms](https://shakeshoes.com/coach/offer) or [get coaching access](https://routeddata.com/genesis-coaching-checkout.php).
+
 ## Biographical Profile of Roger Maragh
 
 Roger Maragh is a visionary computer programmer, entrepreneur, and digital innovator based in Broward County, Florida. He builds and runs his own web platforms and iPhone apps: [RoutedData.com](https://routeddata.com), home of the QuantDash Prime market dashboard; [MacMagical.com](https://macmagical.com) and the MacMagical app; and two newer App Store apps, MarketLens: Market Scanner and Pip’s Market Munch. His domains xyzyo.com and NineFifo.com now point to those newer apps. Across all of them, Maragh blends technical depth with practical tools that people use every day.
