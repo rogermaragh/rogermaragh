@@ -14,28 +14,38 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ... see/read below:
 
 <!-- live-status:start -->
-### 🟢 Live status
+### 🟢 Public availability
 
-| | Site or app | Status | Details |
+Checks page responses and US App Store listings. They do not verify sign-in, payments, data freshness, or app functionality.
+
+#### Apps
+
+| | App | Status | Details |
 |:-:|---|---|---|
-| 🎟️ | [RoutedData.com](https://routeddata.com/) | 🟢 Up | Answers in 0.3 s |
-| 🪄 | [MacMagical.com](https://macmagical.com/) | 🟢 Up | Answers in 1.1 s |
-| 📱 | [MacMagical](https://apps.apple.com/us/app/macmagical/id6738878207) | 🟢 On the App Store | Version 1.0 · ★ 5.0 (5 ratings) |
-| 📈 | [MarketLens: Market Scanner](https://apps.apple.com/us/app/marketlens-market-scanner/id6792598613) | 🟢 On the App Store | Version 1.0.7 · no ratings yet |
-| 🎮 | [Pip’s Market Munch](https://apps.apple.com/us/app/pips-market-munch/id6806082015) | 🟢 On the App Store | Version 1.0 · no ratings yet |
-| 👤 | [rogermaragh.com](https://rogermaragh.com/) | 🟢 Up | Answers in 0.3 s |
-| 🏠 | [www.rogermaragh.com](https://www.rogermaragh.com/) | 🟢 Up | Answers in 0.3 s |
-| 📰 | [BrowardLocals.com](https://browardlocals.com/) | 🟢 Up | Answers in 0.3 s |
-| 🎮 | [xyzyo.com](https://xyzyo.com/) | 🟢 Up | Answers in 0.3 s |
-| 🌐 | [NineFifo.com](https://ninefifo.com/) | 🟢 Up | Answers in 0.3 s |
-| 💻 | [MagicalPC.com](https://magicalpc.com/) | 🟢 Up | Answers in 0.4 s |
-| ❤️ | [Love1Tech.com](https://love1tech.com/) | 🟢 Up | Answers in 0.3 s |
-| 🧊 | [Xerokewl.io](https://xerokewl.io/) | 🟢 Up | Answers in 0.4 s |
-| 🧑‍💻 | [RajhMiraj.com](https://rajhmiraj.com/) | 🟢 Up | Answers in 0.4 s |
-| 🧠 | [MetaSage.com](https://metasage.com/) | 🟢 Up | Answers in 0.3 s |
+| 📱 | [MacMagical](https://apps.apple.com/us/app/macmagical/id6738878207) | 🟢 Listed in US App Store | Version 1.0 · ★ 5.0 (5 ratings) |
+| 📈 | [MarketLens: Market Scanner](https://apps.apple.com/us/app/marketlens-market-scanner/id6792598613) | 🟢 Listed in US App Store | Version 1.0.7 · no ratings yet |
+| 🎮 | [Pip’s Market Munch](https://apps.apple.com/us/app/pips-market-munch/id6806082015) | 🟢 Listed in US App Store | Version 1.0 · no ratings yet |
 
-<sub>🕒 Checked every hour by a [GitHub Action](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml) · updated Oct 10, 2026, 00:47 UTC · [![live status](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml/badge.svg)](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml)</sub>
-<!-- live-status:sig=0056b2234fca updated=2026-10-10T00:47Z -->
+#### Websites
+
+| | Website | Status | Details |
+|:-:|---|---|---|
+| 🎟️ | [RoutedData.com](https://routeddata.com/) | 🟢 Responding | Answers in 0.2 s |
+| 🪄 | [MacMagical.com](https://macmagical.com/) | 🟡 Forwards | To routeddata.com |
+| 👤 | [rogermaragh.com](https://rogermaragh.com/) | 🟢 Responding | Answers in 0.5 s |
+| 🏠 | [www.rogermaragh.com](https://www.rogermaragh.com/) | 🟢 Responding | Answers in 0.5 s |
+| 📰 | [BrowardLocals.com](https://browardlocals.com/) | 🟢 Responding | Answers in 0.3 s |
+| 🌱 | [Shakeshoes.com (Genesis)](https://shakeshoes.com/) | 🟢 Responding | Answers in 0.4 s |
+| 🎮 | [xyzyo.com](https://xyzyo.com/) | 🟢 Responding | Answers in 0.4 s |
+| 🌐 | [NineFifo.com](https://ninefifo.com/) | 🟢 Responding | Answers in 0.4 s |
+| 💻 | [MagicalPC.com](https://magicalpc.com/) | 🟢 Responding | Answers in 0.4 s |
+| ❤️ | [Love1Tech.com](https://love1tech.com/) | 🟢 Responding | Answers in 0.4 s |
+| 🧊 | [Xerokewl.io](https://xerokewl.io/) | 🟢 Responding | Answers in 0.5 s |
+| 🧑‍💻 | [RajhMiraj.com](https://rajhmiraj.com/) | 🟢 Responding | Answers in 0.6 s |
+| 🧠 | [MetaSage.com](https://metasage.com/) | 🟢 Responding | Answers in 0.4 s |
+
+<sub>🕒 Checked every hour by a [GitHub Action](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml) · updated Oct 10, 2026, 16:38 UTC · [![live status](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml/badge.svg)](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml)</sub>
+<!-- live-status:sig=a071fae14983 updated=2026-10-10T16:38Z -->
 <!-- live-status:end -->
 
 ## Genesis guided coaching

@@ -9,7 +9,7 @@ changes, or once a UTC day so the "updated" date shows the checker is still runn
 
     python3 scripts/live_status.py [README.md] [--config live-status.json] [--dry-run]
 
-Exit 0 when the check ran (a site being down is news, not an error) · 2 on bad input.
+Exit 0 when checks completed, 1 when Apple lookup is unavailable, 2 on bad input.
 """
 import argparse
 import datetime as dt
@@ -32,7 +32,7 @@ TIMEOUT = 15
 VARIANTS = (('https', ''), ('https', 'www.'), ('http', ''), ('http', 'www.'))
 WORDS = {'dns': "Domain doesn't resolve", 'timeout': 'No answer in %d s' % TIMEOUT,
          'tls': 'Certificate problem', 'refused': 'Refuses connections', 'unreachable': 'Unreachable'}
-STATE = {'up': '🟢 Up', 'forwards': '🟡 Forwards', 'down': '🔴 Down', 'app': '🟢 On the App Store'}
+STATE = {'up': '🟢 Responding', 'forwards': '🟡 Forwards', 'down': '🔴 Down', 'app': '🟢 Listed in US App Store', 'protected': '🔒 Access restricted'}
 
 
 class _NoRedirect(urllib.request.HTTPRedirectHandler):
@@ -140,6 +140,8 @@ def check_domain(domain, get=http_get, app_name=None, pause=5, sleep=time.sleep)
     first_error, code = None, None
     for attempt in (1, 2):
         for scheme, www in VARIANTS:
+            if domain.startswith('www.') and www:
+                continue
             url = '%s://%s%s/' % (scheme, www, domain)
             kind, val = follow(url, get)
             if kind == 'error':
@@ -152,6 +154,8 @@ def check_domain(domain, get=http_get, app_name=None, pause=5, sleep=time.sleep)
                 target = where(val, app_name) + note
                 return result('forwards', target, url, 'forwards:' + target)
             code = val
+            if code in (401, 403):
+                return result('protected', 'HTTP %d; functionality unverified' % code, url, 'protected:%d' % code)
             break
         if code is not None and code < 500 and code != 429:
             break
@@ -181,10 +185,18 @@ def check_app(app_id, lookup=app_lookup):
 
 def render(rows, results, now, sig):
     head = '🟠' if any(r['state'] == 'down' for r in results) else '🟢'
-    out = [START, '### %s Live status' % head, '', '| | Site or app | Status | Details |', '|:-:|---|---|---|']
-    for cfg, r in zip(rows, results):
-        name = '[%s](%s)' % (cfg['name'], r['link']) if r['link'] else cfg['name']
-        out.append('| %s | %s | %s | %s |' % (cfg['icon'], name, STATE[r['state']], r['detail'].replace('|', r'\|')))
+    out = [START, '### %s Public availability' % head, '',
+           'Checks page responses and US App Store listings. They do not verify sign-in, payments, data freshness, or app functionality.']
+    pairs = list(zip(rows, results))
+    for title, item_name, group in (
+            ('Apps', 'App', [pair for pair in pairs if 'app_store_id' in pair[0]]),
+            ('Websites', 'Website', [pair for pair in pairs if 'domain' in pair[0]])):
+        if not group:
+            continue
+        out += ['', '#### %s' % title, '', '| | %s | Status | Details |' % item_name, '|:-:|---|---|---|']
+        for cfg, r in group:
+            name = '[%s](%s)' % (cfg['name'], r['link']) if r['link'] else cfg['name']
+            out.append('| %s | %s | %s | %s |' % (cfg['icon'], name, STATE[r['state']], r['detail'].replace('|', r'\|')))
     when = '%s %d, %s UTC' % (now.strftime('%b'), now.day, now.strftime('%Y, %H:%M'))
     out += ['', '<sub>🕒 Checked every hour by a [GitHub Action](%s) · updated %s · '
                 '[![live status](%s/badge.svg)](%s)</sub>' % (WORKFLOW, when, WORKFLOW, WORKFLOW),
@@ -197,7 +209,7 @@ def update(text, rows, results, now):
     m = re.search(re.escape(START) + r'.*?' + re.escape(END), text, re.S)
     if not m:
         raise ValueError('README.md has no %s … %s block' % (START, END))
-    sig = hashlib.sha1(json.dumps([r['sig'] for r in results]).encode()).hexdigest()[:12]
+    sig = hashlib.sha1(json.dumps(['availability-v3', *[r['sig'] for r in results]]).encode()).hexdigest()[:12]
     old = re.search(r'live-status:sig=(\w+) updated=(\d{4}-\d{2}-\d{2})', m.group(0))
     if old and old.group(1) == sig and old.group(2) == now.strftime('%Y-%m-%d'):
         return text, False
@@ -232,7 +244,7 @@ def main(argv=None, get=http_get, lookup=app_lookup, now=None, sleep=time.sleep)
             r = check_app(cfg['app_store_id'], lookup)
             if r is None:
                 print("live-status: the App Store didn't answer — table left as it is")
-                return 0
+                return 1
         else:
             r = check_domain(cfg['domain'], get, app_name, sleep=sleep)
         print('%-20s %-9s %s' % (cfg['name'], r['state'], r['detail']))

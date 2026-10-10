@@ -112,6 +112,17 @@ class DomainTest(unittest.TestCase):
         r = ls.check_domain('f.test', Web({'https://f.test/': (404, None)}), None, sleep=pauses.append)
         self.assertEqual((r['detail'], pauses), ('HTTP 404', []))
 
+    def test_restricted_page_is_not_an_outage(self):
+        for code in (401, 403):
+            r = check('a.test', {'https://a.test/': (code, None)})
+            self.assertEqual(r['state'], 'protected')
+            self.assertIn('functionality unverified', r['detail'])
+
+    def test_www_domain_does_not_try_double_www(self):
+        web = Web({})
+        ls.check_domain('www.a.test', web, sleep=lambda s: None)
+        self.assertFalse(any('www.www.' in url for url in web.asked))
+
     def test_connection_failures_in_plain_words(self):
         self.assertEqual(ls.why(DNS), 'dns')
         self.assertEqual(ls.why(TIMEOUT), 'timeout')
@@ -165,10 +176,31 @@ class ReadmeTest(unittest.TestCase):
         rc, text = self.run_at(dt.datetime(2026, 9, 27, 5, 10, tzinfo=dt.timezone.utc))
         self.assertEqual(rc, 0)
         self.assertTrue(text.startswith(self.BEFORE) and text.endswith(self.AFTER))
-        self.assertIn('| 🎟️ | [A.test](https://a.test/) | 🟢 Up | Answers in 1.0 s |', text)
-        self.assertIn('| 📱 | [App](https://apps.apple.com/us/app/macmagical/id6738878207) | 🟢 On the App Store |', text)
+        self.assertIn('| 🎟️ | [A.test](https://a.test/) | 🟢 Responding | Answers in 1.0 s |', text)
+        self.assertIn('| 📱 | [App](https://apps.apple.com/us/app/macmagical/id6738878207) | 🟢 Listed in US App Store |', text)
         self.assertIn('updated Sep 27, 2026, 05:10 UTC', text)
-        self.assertIn('### 🟢 Live status', text)
+        self.assertIn('### 🟢 Public availability', text)
+        self.assertLess(text.index('#### Apps'), text.index('| 📱 | [App]'))
+        self.assertLess(text.index('| 📱 | [App]'), text.index('#### Websites'))
+        self.assertLess(text.index('#### Websites'), text.index('| 🎟️ | [A.test]'))
+
+    def test_groups_preserve_the_existing_order_within_each_type(self):
+        rows = [
+            {'icon': '🌐', 'name': 'First site', 'domain': 'first.test'},
+            {'icon': '📱', 'name': 'First app', 'app_store_id': 1},
+            {'icon': '🌐', 'name': 'Second site', 'domain': 'second.test'},
+            {'icon': '📱', 'name': 'Second app', 'app_store_id': 2},
+        ]
+        results = [
+            ls.result('up', 'Answers in 1.0 s', 'https://first.test/', 'first'),
+            ls.result('app', 'Version 1.0 · no ratings yet', 'https://apps.apple.com/us/app/id1', 'app1'),
+            ls.result('up', 'Answers in 1.0 s', 'https://second.test/', 'second'),
+            ls.result('app', 'Version 1.0 · no ratings yet', 'https://apps.apple.com/us/app/id2', 'app2'),
+        ]
+        text = ls.render(rows, results, dt.datetime(2026, 9, 27, tzinfo=dt.timezone.utc), 'test')
+        self.assertLess(text.index('[First app]'), text.index('[Second app]'))
+        self.assertLess(text.index('[First site]'), text.index('[Second site]'))
+        self.assertLess(text.index('[Second app]'), text.index('#### Websites'))
 
     def test_rewrites_on_a_change_or_a_new_day_only(self):
         t1 = dt.datetime(2026, 9, 27, 5, 10, tzinfo=dt.timezone.utc)
@@ -177,7 +209,7 @@ class ReadmeTest(unittest.TestCase):
         self.assertEqual(same, first)
         _, down = self.run_at(t1 + dt.timedelta(hours=2), pages={'https://a.test/': (404, None)})
         self.assertIn('| 🔴 Down | HTTP 404 |', down)
-        self.assertIn('### 🟠 Live status', down)
+        self.assertIn('### 🟠 Public availability', down)
         _, back = self.run_at(t1 + dt.timedelta(hours=3))
         _, still = self.run_at(t1 + dt.timedelta(hours=4))
         self.assertEqual(still, back)
@@ -191,7 +223,7 @@ class ReadmeTest(unittest.TestCase):
         def fail(i):
             raise TIMEOUT
         rc, after = self.run_at(dt.datetime(2026, 9, 27, tzinfo=dt.timezone.utc), apps=fail)
-        self.assertEqual((rc, after), (0, before))
+        self.assertEqual((rc, after), (1, before))
 
     def test_missing_markers_or_config_is_2(self):
         self.readme.write_text('no markers here\n', encoding='utf-8')
@@ -207,7 +239,7 @@ class RegistryTest(unittest.TestCase):
         domains = [row['domain'] for row in rows if 'domain' in row]
         self.assertEqual(domains, [
             'routeddata.com', 'macmagical.com', 'rogermaragh.com',
-            'www.rogermaragh.com', 'browardlocals.com', 'xyzyo.com',
+            'www.rogermaragh.com', 'browardlocals.com', 'shakeshoes.com', 'xyzyo.com',
             'ninefifo.com', 'magicalpc.com', 'love1tech.com', 'xerokewl.io',
             'rajhmiraj.com', 'metasage.com',
         ])
