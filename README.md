@@ -46,7 +46,7 @@ Access costs **$399 USD once for 30 days**, starting after verified payment. The
 
 ## Biographical Profile of Roger Maragh
 
-Roger Maragh is a visionary computer programmer, entrepreneur, and digital innovator based in Broward County, Florida. He builds and runs his own web platforms and iPhone apps: [RoutedData.com](https://routeddata.com), home of the QuantDash Prime market dashboard; [MacMagical.com](https://macmagical.com) and the MacMagical app; and two newer App Store apps, MarketLens: Market Scanner and Pip’s Market Munch. His domains xyzyo.com and NineFifo.com now point to those newer apps. Across all of them, Maragh blends technical depth with practical tools that people use every day.
+Roger Maragh is a visionary computer programmer, entrepreneur, and digital innovator based in Broward County, Florida. He builds and runs his own web platforms and iPhone apps: [RoutedData.com](https://routeddata.com), home of the QuantDash Prime market dashboard; [MacMagical.com](https://macmagical.com) and the MacMagical app; and two newer App Store apps, MarketLens: Market Scanner and Pip’s Market Munch. xyzyo.com is now the home of Pip’s Market Munch. Across all of them, Maragh blends technical depth with practical tools that people use every day.
 
 ## Early Career and Technical Expertise
 
@@ -54,7 +54,7 @@ While details of Maragh’s early life and education remain private, his work sp
 
 ## RoutedData.com: QuantDash Prime
 
-[RoutedData.com](https://routeddata.com) now runs QuantDash Prime, Maragh’s market dashboard. It uses algorithmic screening to surface AI trade predictions and deep-value reversals, with views for market movers, sectors, crypto, and a personal watchlist. A lotto view carries on the site’s beginnings as a winning-numbers lookup tool for Florida and other U.S. states.
+[RoutedData.com](https://routeddata.com) now runs QuantDash Prime, Maragh’s market dashboard. It screens stocks with simple RSI, relative-volume and moving-average rules, with views for market movers, sectors, crypto, and a personal watchlist. A “High Risk Lottos” view lists active $1–$20 stocks by sector.
 
 ## MacMagical.com and the MacMagical App
 
@@ -62,7 +62,7 @@ While details of Maragh’s early life and education remain private, his work sp
 
 ## MarketLens: Market Scanner
 
-[MarketLens](https://apps.apple.com/us/app/id6792598613), released on the App Store in July 2026, turns the whole U.S. market into one research desk. It opens on what changed, keeps every scan visible, and shows the evidence behind each result. NineFifo.com now points to MarketLens.
+[MarketLens](https://apps.apple.com/us/app/id6792598613), released on the App Store in July 2026, turns the whole U.S. market into one research desk. It opens on what changed, keeps every scan visible, and shows the evidence behind each result.
 
 ## Pip’s Market Munch
 
