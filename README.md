@@ -36,7 +36,7 @@ Checks page responses and US App Store listings. They do not verify sign-in, pay
 | 🏠 | [www.rogermaragh.com](https://www.rogermaragh.com/) | 🟢 Responding | Answers in 0.2 s |
 | 📰 | [BrowardLocals.com](https://browardlocals.com/) | 🟢 Responding | Answers in 9.0 s |
 | 🌱 | [Shakeshoes.com (Genesis)](https://shakeshoes.com/) | 🟢 Responding | Answers in 0.4 s |
-| 🎮 | [xyzyo.com](https://xyzyo.com/) | 🟢 Responding | Answers in 0.3 s |
+| ✨ | [XYZYō — Sage collection](https://xyzyo.com/) | 🟢 Responding | Answers in 0.3 s |
 | 🌐 | [NineFifo.com](https://ninefifo.com/) | 🟢 Responding | Answers in 0.1 s |
 | 💻 | [MagicalPC.com](https://magicalpc.com/) | 🟢 Responding | Answers in 0.1 s |
 | ❤️ | [Love1Tech.com](https://love1tech.com/) | 🟢 Responding | Answers in 0.1 s |
@@ -56,7 +56,7 @@ Access costs **$399 USD once for 30 days**, starting after verified payment. The
 
 ## Biographical Profile of Roger Maragh
 
-Roger Maragh is a visionary computer programmer, entrepreneur, and digital innovator based in Broward County, Florida. He builds and runs his own web platforms and iPhone apps: [RoutedData.com](https://routeddata.com), home of the QuantDash Prime market dashboard; [MacMagical.com](https://macmagical.com) and the MacMagical app; and two newer App Store apps, MarketLens: Market Scanner and Pip’s Market Munch. xyzyo.com is now the home of Pip’s Market Munch. Across all of them, Maragh blends technical depth with practical tools that people use every day.
+Roger Maragh is a visionary computer programmer, entrepreneur, and digital innovator based in Broward County, Florida. He builds and runs his own web platforms and iPhone apps: [RoutedData.com](https://routeddata.com), home of the QuantDash Prime market dashboard; [MacMagical.com](https://macmagical.com) and the MacMagical app; and two newer App Store apps, MarketLens: Market Scanner and Pip’s Market Munch. [xyzyo.com](https://xyzyo.com/) is the XYZYō Sage collection, a public collection of selected products. Across all of them, Maragh blends technical depth with practical tools that people use every day.
 
 ## Early Career and Technical Expertise
 
@@ -76,7 +76,7 @@ While details of Maragh’s early life and education remain private, his work sp
 
 ## Pip’s Market Munch
 
-[Pip’s Market Munch](https://apps.apple.com/us/app/id6806082015), released in September 2026, teaches markets through play: an arcade adventure where Pip inspects the clues and munches the matches, so players come back knowing a little more. [xyzyo.com](https://xyzyo.com/?ref=github) is now the home of Pip’s Market Munch.
+[Pip’s Market Munch](https://apps.apple.com/us/app/id6806082015), released in September 2026, teaches markets through play: an arcade adventure where Pip inspects the clues and munches the matches, so players come back knowing a little more.
 
 ## Broader Impact and Legacy
 
@@ -87,4 +87,3 @@ Roger Maragh’s work blends technical skill with practical impact. QuantDash Pr
 Roger Maragh is a builder at heart. From QuantDash Prime on RoutedData.com to MacMagical, MarketLens, and Pip’s Market Munch on the App Store, his work shows how much one determined programmer can ship. For inquiries or partnership opportunities, he can be reached at 954-601-9525.
 
 ## Made with ♥️ in Sunrise, Florida ![](https://hit.yhype.me/github/profile?account_id=3769507)
-
