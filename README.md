@@ -30,22 +30,22 @@ Checks page responses and US App Store listings. They do not verify sign-in, pay
 
 | | Website | Status | Details |
 |:-:|---|---|---|
-| 🎟️ | [RoutedData.com](https://routeddata.com/) | 🟢 Responding | Answers in 0.6 s |
-| 🪄 | [MacMagical.com](http://www.macmagical.com/) | 🟢 Responding | Answers in 8.9 s (www only, no HTTPS) |
+| 🎟️ | [RoutedData.com](https://routeddata.com/) | 🟢 Responding | Answers in 0.2 s |
+| 🪄 | [MacMagical.com](https://macmagical.com/) | 🟢 Responding | Answers in 0.1 s |
 | 👤 | [rogermaragh.com](https://rogermaragh.com/) | 🟢 Responding | Answers in 0.1 s |
-| 🏠 | [www.rogermaragh.com](https://www.rogermaragh.com/) | 🟢 Responding | Answers in 0.2 s |
-| 📰 | [BrowardLocals.com](https://browardlocals.com/) | 🟢 Responding | Answers in 0.4 s |
+| 🏠 | [www.rogermaragh.com](https://www.rogermaragh.com/) | 🟢 Responding | Answers in 0.3 s |
+| 📰 | [BrowardLocals.com](https://browardlocals.com/) | 🟢 Responding | Answers in 0.2 s |
 | 🌱 | [Shakeshoes.com (Genesis)](https://shakeshoes.com/) | 🟢 Responding | Answers in 0.4 s |
-| ✨ | [XYZYō — Sage collection](https://xyzyo.com/) | 🟢 Responding | Answers in 0.4 s |
+| ✨ | [XYZYō — Sage collection](https://xyzyo.com/) | 🟢 Responding | Answers in 0.2 s |
 | 🌐 | [NineFifo.com](https://ninefifo.com/) | 🟢 Responding | Answers in 0.1 s |
 | 💻 | [MagicalPC.com](https://magicalpc.com/) | 🟢 Responding | Answers in 0.2 s |
-| ❤️ | [Love1Tech.com](https://love1tech.com/) | 🟢 Responding | Answers in 0.1 s |
-| 🧊 | [Xerokewl.io](https://xerokewl.io/) | 🟢 Responding | Answers in 0.2 s |
-| 🧑‍💻 | [RajhMiraj.com](https://rajhmiraj.com/) | 🟢 Responding | Answers in 0.3 s |
-| 🧠 | [MetaSage.com](https://metasage.com/) | 🟢 Responding | Answers in 0.3 s |
+| ❤️ | [Love1Tech.com](https://love1tech.com/) | 🟢 Responding | Answers in 0.2 s |
+| 🧊 | [Xerokewl.io](https://xerokewl.io/) | 🟢 Responding | Answers in 0.1 s |
+| 🧑‍💻 | [RajhMiraj.com](https://rajhmiraj.com/) | 🟢 Responding | Answers in 0.2 s |
+| 🧠 | [MetaSage.com](https://metasage.com/) | 🟢 Responding | Answers in 0.2 s |
 
-<sub>🕒 Checked every hour by a [GitHub Action](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml) · updated Oct 29, 2026, 21:49 UTC · [![live status](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml/badge.svg)](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml)</sub>
-<!-- live-status:sig=145bbe0b394f updated=2026-10-29T21:49Z -->
+<sub>🕒 Checked every hour by a [GitHub Action](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml) · updated Oct 30, 2026, 01:57 UTC · [![live status](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml/badge.svg)](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml)</sub>
+<!-- live-status:sig=6466b56732cb updated=2026-10-30T01:57Z -->
 <!-- live-status:end -->
 
 ## Genesis guided coaching
