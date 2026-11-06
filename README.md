@@ -30,22 +30,22 @@ Checks page responses and US App Store listings. They do not verify sign-in, pay
 
 | | Website | Status | Details |
 |:-:|---|---|---|
-| 🎟️ | [RoutedData.com](https://routeddata.com/) | 🟢 Responding | Answers in 0.1 s |
-| 🪄 | [MacMagical.com](https://macmagical.com/) | 🟢 Responding | Answers in 0.1 s |
+| 🎟️ | [RoutedData.com](https://routeddata.com/) | 🟢 Responding | Answers in 0.4 s |
+| 🪄 | [MacMagical.com](https://macmagical.com/) | 🟢 Responding | Answers in 0.2 s |
 | 👤 | [rogermaragh.com](https://rogermaragh.com/) | 🟢 Responding | Answers in 0.2 s |
 | 🏠 | [www.rogermaragh.com](https://www.rogermaragh.com/) | 🟢 Responding | Answers in 0.2 s |
-| 📰 | [BrowardLocals.com](https://browardlocals.com/) | 🟢 Responding | Answers in 0.1 s |
-| 🌱 | [Shakeshoes.com (Genesis)](https://shakeshoes.com/) | 🟢 Responding | Answers in 0.2 s |
-| ✨ | [XYZYō — Sage collection](https://xyzyo.com/) | 🟢 Responding | Answers in 0.2 s |
-| 🌐 | [NineFifo.com](http://ninefifo.com/) | 🟢 Responding | Answers in 0.2 s (no HTTPS) |
-| 💻 | [MagicalPC.com](https://magicalpc.com/) | 🟢 Responding | Answers in 0.1 s |
-| ❤️ | [Love1Tech.com](https://love1tech.com/) | 🟢 Responding | Answers in 0.1 s |
-| 🧊 | [Xerokewl.io](https://xerokewl.io/) | 🟢 Responding | Answers in 0.3 s |
-| 🧑‍💻 | [RajhMiraj.com](https://rajhmiraj.com/) | 🟢 Responding | Answers in 0.2 s |
-| 🧠 | [MetaSage.com](https://metasage.com/) | 🟢 Responding | Answers in 0.3 s |
+| 📰 | [BrowardLocals.com](https://browardlocals.com/) | 🟢 Responding | Answers in 0.4 s |
+| 🌱 | [Shakeshoes.com (Genesis)](https://shakeshoes.com/) | 🟢 Responding | Answers in 0.4 s |
+| ✨ | [XYZYō — Sage collection](https://xyzyo.com/) | 🟢 Responding | Answers in 0.3 s |
+| 🌐 | [NineFifo.com](http://ninefifo.com/) | 🟢 Responding | Answers in 0.1 s (no HTTPS) |
+| 💻 | [MagicalPC.com](https://magicalpc.com/) | 🟢 Responding | Answers in 0.2 s |
+| ❤️ | [Love1Tech.com](https://love1tech.com/) | 🟢 Responding | Answers in 0.2 s |
+| 🧊 | [Xerokewl.io](https://xerokewl.io/) | 🟢 Responding | Answers in 0.4 s |
+| 🧑‍💻 | [RajhMiraj.com](https://rajhmiraj.com/) | 🟢 Responding | Answers in 0.3 s |
+| 🧠 | [MetaSage.com](https://metasage.com/) | 🟢 Responding | Answers in 0.4 s |
 
-<sub>🕒 Checked every hour by a [GitHub Action](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml) · updated Nov 5, 2026, 02:25 UTC · [![live status](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml/badge.svg)](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml)</sub>
-<!-- live-status:sig=0b4d364a6732 updated=2026-11-05T02:25Z -->
+<sub>🕒 Checked every hour by a [GitHub Action](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml) · updated Nov 6, 2026, 00:13 UTC · [![live status](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml/badge.svg)](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml)</sub>
+<!-- live-status:sig=0b4d364a6732 updated=2026-11-06T00:13Z -->
 <!-- live-status:end -->
 
 ## Genesis guided coaching
