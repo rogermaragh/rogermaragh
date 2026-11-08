@@ -32,7 +32,7 @@ Checks page responses and US App Store listings. They do not verify sign-in, pay
 |:-:|---|---|---|
 | 🎟️ | [RoutedData.com](https://routeddata.com/) | 🟢 Responding | Answers in 0.5 s |
 | 🪄 | [MacMagical.com](https://macmagical.com/) | 🟢 Responding | Answers in 0.2 s |
-| 👤 | [rogermaragh.com](https://rogermaragh.com/) | 🟢 Responding | Answers in 0.1 s |
+| 👤 | [rogermaragh.com](https://rogermaragh.com/) | 🟢 Responding | Answers in 0.2 s |
 | 🏠 | [www.rogermaragh.com](https://www.rogermaragh.com/) | 🟢 Responding | Answers in 0.1 s |
 | 📰 | [BrowardLocals.com](https://browardlocals.com/) | 🟢 Responding | Answers in 0.3 s |
 | 🌱 | [Shakeshoes.com (Genesis)](https://shakeshoes.com/) | 🟢 Responding | Answers in 0.3 s |
@@ -42,10 +42,10 @@ Checks page responses and US App Store listings. They do not verify sign-in, pay
 | ❤️ | [Love1Tech.com](https://love1tech.com/) | 🟢 Responding | Answers in 0.1 s |
 | 🧊 | [Xerokewl.io](https://xerokewl.io/) | 🟢 Responding | Answers in 0.1 s |
 | 🧑‍💻 | RajhMiraj.com | 🔴 Down | No answer in 15 s |
-| 🧠 | MetaSage.com | 🔴 Down | No answer in 15 s |
+| 🧠 | MetaSage.com | 🔴 Down | HTTP 523 |
 
-<sub>🕒 Checked every hour by a [GitHub Action](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml) · updated Nov 8, 2026, 10:19 UTC · [![live status](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml/badge.svg)](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml)</sub>
-<!-- live-status:sig=bc8f4a9142e6 updated=2026-11-08T10:19Z -->
+<sub>🕒 Checked every hour by a [GitHub Action](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml) · updated Nov 8, 2026, 12:56 UTC · [![live status](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml/badge.svg)](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml)</sub>
+<!-- live-status:sig=d9314fd7c293 updated=2026-11-08T12:56Z -->
 <!-- live-status:end -->
 
 ## Genesis guided coaching
