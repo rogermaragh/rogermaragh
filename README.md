@@ -32,20 +32,20 @@ Checks page responses and US App Store listings. They do not verify sign-in, pay
 |:-:|---|---|---|
 | 🎟️ | [RoutedData.com](https://routeddata.com/) | 🟢 Responding | Answers in 4.0 s |
 | 🪄 | [MacMagical.com](https://macmagical.com/) | 🟢 Responding | Answers in 0.1 s |
-| 👤 | [rogermaragh.com](https://rogermaragh.com/) | 🟢 Responding | Answers in 0.3 s |
-| 🏠 | [www.rogermaragh.com](https://www.rogermaragh.com/) | 🟢 Responding | Answers in 0.2 s |
-| 📰 | [BrowardLocals.com](https://browardlocals.com/) | 🟢 Responding | Answers in 0.3 s |
+| 👤 | [rogermaragh.com](https://rogermaragh.com/) | 🟢 Responding | Answers in 0.2 s |
+| 🏠 | [www.rogermaragh.com](https://www.rogermaragh.com/) | 🟢 Responding | Answers in 0.3 s |
+| 📰 | [BrowardLocals.com](https://browardlocals.com/) | 🟢 Responding | Answers in 0.2 s |
 | 🌱 | [Shakeshoes.com (Genesis)](https://shakeshoes.com/) | 🟢 Responding | Answers in 0.2 s |
 | ✨ | [XYZYō — Sage collection](https://xyzyo.com/) | 🟢 Responding | Answers in 0.2 s |
 | 🌐 | [NineFifo.com](https://ninefifo.com/) | 🟢 Responding | Answers in 0.2 s |
 | 💻 | [MagicalPC.com](https://magicalpc.com/) | 🟢 Responding | Answers in 0.2 s |
 | ❤️ | [Love1Tech.com](https://love1tech.com/) | 🟢 Responding | Answers in 0.2 s |
-| 🧊 | [Xerokewl.io](https://xerokewl.io/) | 🟢 Responding | Answers in 0.1 s |
+| 🧊 | [Xerokewl.io](https://xerokewl.io/) | 🟢 Responding | Answers in 0.3 s |
 | 🧑‍💻 | RajhMiraj.com | 🔴 Down | No answer in 15 s |
-| 🧠 | MetaSage.com | 🔴 Down | No answer in 15 s |
+| 🧠 | MetaSage.com | 🔴 Down | HTTP 523 |
 
-<sub>🕒 Checked every hour by a [GitHub Action](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml) · updated Nov 10, 2026, 03:51 UTC · [![live status](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml/badge.svg)](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml)</sub>
-<!-- live-status:sig=bc8f4a9142e6 updated=2026-11-10T03:51Z -->
+<sub>🕒 Checked every hour by a [GitHub Action](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml) · updated Nov 10, 2026, 07:05 UTC · [![live status](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml/badge.svg)](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml)</sub>
+<!-- live-status:sig=d9314fd7c293 updated=2026-11-10T07:05Z -->
 <!-- live-status:end -->
 
 ## Genesis guided coaching
