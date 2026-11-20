@@ -30,7 +30,7 @@ Checks page responses and US App Store listings. They do not verify sign-in, pay
 
 | | Website | Status | Details |
 |:-:|---|---|---|
-| 🎟️ | [RoutedData.com](https://routeddata.com/) | 🟢 Responding | Answers in 4.9 s |
+| 🎟️ | [RoutedData.com](https://routeddata.com/) | 🟢 Responding | Answers in 4.2 s |
 | 🪄 | [MacMagical.com](https://macmagical.com/) | 🟢 Responding | Answers in 0.2 s |
 | 👤 | [rogermaragh.com](https://rogermaragh.com/) | 🟡 Forwards | To my App Store developer page |
 | 🏠 | [www.rogermaragh.com](https://www.rogermaragh.com/) | 🟡 Forwards | To my App Store developer page |
@@ -41,11 +41,11 @@ Checks page responses and US App Store listings. They do not verify sign-in, pay
 | 💻 | [MagicalPC.com](https://magicalpc.com/) | 🟢 Responding | Answers in 0.2 s |
 | ❤️ | [Love1Tech.com](https://love1tech.com/) | 🟢 Responding | Answers in 0.2 s |
 | 🧊 | [Xerokewl.io](https://xerokewl.io/) | 🟢 Responding | Answers in 0.2 s |
-| 🧑‍💻 | [RajhMiraj.com](https://rajhmiraj.com/) | 🟢 Responding | Answers in 0.3 s |
-| 🧠 | [MetaSage.com](https://metasage.com/) | 🟢 Responding | Answers in 0.2 s |
+| 🧑‍💻 | [RajhMiraj.com](https://rajhmiraj.com/) | 🟢 Responding | Answers in 0.2 s |
+| 🧠 | [MetaSage.com](https://metasage.com/) | 🟢 Responding | Answers in 0.4 s |
 
-<sub>🕒 Checked every hour by a [GitHub Action](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml) · updated Nov 19, 2026, 05:47 UTC · [![live status](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml/badge.svg)](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml)</sub>
-<!-- live-status:sig=908b6c55a389 updated=2026-11-19T05:47Z -->
+<sub>🕒 Checked every hour by a [GitHub Action](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml) · updated Nov 20, 2026, 00:47 UTC · [![live status](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml/badge.svg)](https://github.com/rogermaragh/rogermaragh/actions/workflows/live-status.yml)</sub>
+<!-- live-status:sig=908b6c55a389 updated=2026-11-20T00:47Z -->
 <!-- live-status:end -->
 
 ## Genesis guided coaching
